@@ -1,0 +1,8 @@
+---
+instances: 1
+memory: 512M
+applications:
+- name: kie-state
+  host: kie-state
+  path: ./target/kie-service-broker-0.0.1-SNAPSHOT.jar
+
